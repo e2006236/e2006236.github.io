@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+    <head>
+
+        <title>最終課題</title>
+
+        <meta charset="utf-8">
+
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        </link>
+        
+        <link rel="stylesheet" href="./main.css/puzzle.css">
+
+        <script type="text/javascript" src="./main.js/puzzle.js"></script>
+        
+
+    </head>
+
+    <body>
+        <div>
+            <h1 id="top">目次</h1>
+
+            <a href="#game">
+                <p>ゲーム</p>
+            </a>
+
+            <h2>感想</h2>
+            <ul>
+                <li><a href="#kansou1">工夫した点</a></li>
+                <li><a href="#kansou2">拡張した部分</a></li>
+                <li><a href="#kansou3">難しかった点</a></li>
+
+            </ul>
+        </div>
+
+        <div>
+            <a href="top"></a>
+        </div>
+
+
+        <div>
+            <h1 id="game">8パズル</h1>
+
+            <div id="puzzle">
+
+                <button id="t0" class="btn btn-secondary tile" onclick="pushed(this.id)"> </button> <button id="t1"
+                    class="btn btn-secondary tile" onclick="pushed(this.id)">1</button> <button id="t2"
+                    class="btn btn-secondary tile" onclick="pushed(this.id)">2
+                </button><br />
+
+                <button id="t3" class="btn btn-secondary tile" onclick="pushed(this.id)">3</button> <button id="t4"
+                    class="btn btn-secondary tile" onclick="pushed(this.id)">4</button> <button id="t5"
+                    class="btn btn-secondary tile" onclick="pushed(this.id)">5
+                </button><br />
+
+                <button id="t6" class="btn btn-secondary tile" onclick="pushed(this.id)">6</button> <button id="t7"
+                    class="btn btn-secondary tile" onclick="pushed(this.id)">7</button> <button id="t8"
+                    class="btn btn-secondary tile" onclick="pushed(this.id)">8
+                </button>
+
+                
+            </div>
+
+
+            <button class="btn btn-primary" onclick="randomTaslar()">シャッフル</button>
+
+
+
+
+        <ul>
+
+            <li id="kansou1">工夫した点
+                <p>簡単にできるゲームをつくったこと</p>
+            </li>
+                
+            <li id="kansou2">拡張した点
+                    <p>ifの定義づけに気を配った</p>
+            </li>
+
+             <li id="kansou3">難しかった点
+                <p>とにかくJavaScriptが難しいと思った</p>
+            </li>
+            
+            
+        </ul>
+
+        <div>
+            <a href="#top">
+                <p>tpoに戻る</p>        
+            </a>
+         </div>
+
+
+    </body>
+
+</html>
